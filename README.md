@@ -18,6 +18,16 @@
 
 ## Scout :Onboard
 
+bundle exec
+
+rails server -p 3001
+
+lvh.me:3001
+
+Sidekiq
+
+
+
 ### Git Shortcuts in .gitconfig
 
     st = status
@@ -49,8 +59,6 @@ Pass: psql123
 ### Fabiano's guide repo
 
 [Useful information to setup a fresh macos · GitHub](https://gist.github.com/ffscalco/74f110e969274fea887a24a65d1e2570)
-
-
 
 # Useful Git Commands
 
@@ -133,5 +141,3 @@ git checkout -b someNewBranchName shaYouDestroyed
 ```
 
 You've now resurrected that commit. Commits don't actually get destroyed in Git for some 90 days, so you can usually go back and rescue one you didn't mean to get rid of.
-
-
