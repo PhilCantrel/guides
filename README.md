@@ -1,5 +1,11 @@
 # Helpful Info
 
+### MISC Useful commands
+
+`Cmd+Shift+P > Dev Tool Menu in Chrome`
+
+`Cmd+k > Search menu on GitHub`
+
 ## Scout :Engage
 
 ### Scout Staging
@@ -25,8 +31,6 @@ rails server -p 3001
 lvh.me:3001
 
 Sidekiq
-
-
 
 ### Git Shortcuts in .gitconfig
 
