@@ -6,9 +6,9 @@
 
 `Cmd+k > Search menu on GitHub`
 
-## Scout :Engage
+## Scout :Engage/Recruit
 
-### Scout Staging
+### :Engage Staging
 
 1. checkout to staging branch.
 
@@ -26,11 +26,40 @@
 
 bundle exec
 
+bin/webpack-dev-server
+
 rails server -p 3001
 
 lvh.me:3001
 
 Sidekiq
+
+make sure the postgresql@12 service is running
+
+#### :Onboard Staging
+
+merge working branch to staging, 
+
+### CLI Shortcuts
+
+```
+CTRL+U then CTRL+R (search previous commands)
+CTRL+R cycle search
+```
+
+### ZSH Shortcuts
+
+```bash
+10to12 -> change from PG10 to 12
+12to10 -> change from PG12 to 10
+guide -> opens this .md
+mkcdir -> make directory and cd into it
+scout -> scout repo
+onboard -> onboard repo
+cbw -> client branding repo
+pmapi -> padmore api repo
+padmore -> padmore front end repo
+```
 
 ### Git Shortcuts in .gitconfig
 
@@ -65,6 +94,10 @@ Pass: psql123
 [Useful information to setup a fresh macos · GitHub](https://gist.github.com/ffscalco/74f110e969274fea887a24a65d1e2570)
 
 # Useful Git Commands
+
+### Create a Git branch and checkout in one command:
+
+`$ git checkout -b **<branch_name>**`
 
 ### Reverse Commits
 
