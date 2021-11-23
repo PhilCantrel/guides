@@ -40,6 +40,12 @@ make sure the postgresql@12 service is running
 
 merge working branch to staging, 
 
+### Ruby Logger
+
+```
+❯ tail -f log/production.log
+```
+
 ### CLI Shortcuts
 
 ```
@@ -67,7 +73,7 @@ padmore -> padmore front end repo
     co = checkout
     br = branch
     cm = commit -m
-    po = push -u origin
+    pu = push -u origin
 
 ### PGVM
 
